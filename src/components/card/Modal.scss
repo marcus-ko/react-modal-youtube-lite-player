@@ -1,0 +1,22 @@
+.card-link-wrapper {
+  p {
+    margin: 4px;
+  }
+}
+
+.modal-wrapper {
+  .modal {
+    width: 100%;
+    max-width: 65%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-wrapper {
+    .modal {
+      margin: 1.75rem auto;
+      max-width: 500px;
+    }
+  }
+}

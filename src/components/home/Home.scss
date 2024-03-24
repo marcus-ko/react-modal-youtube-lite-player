@@ -1,0 +1,47 @@
+// Mobile view
+.container {
+  .flex.hero_wrapper {
+    flex-direction: column;
+
+    .col.col-right {
+      margin-top: 30px;
+    }
+  }
+
+  h1 {
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+
+    h1 {
+      color: #fff;
+      font-size: 40px;
+    }
+
+    h2 {
+      color: rgb(167, 167, 167);
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .search-bar {
+      width: 800px;
+      height: 30px;
+      border-radius: 6px;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .flex.hero_wrapper {
+      flex-direction: row;
+    }
+  }
+}
