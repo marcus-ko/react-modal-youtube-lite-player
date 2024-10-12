@@ -67,7 +67,7 @@ const Home = () => {
           </div>
         </div>
 
-        <h2 className="marginTop100">Progressive House Top 50</h2>
+        <h2 className="main-content-title marginTop100">Progressive House Top 50</h2>
         <Search
           searchInput={searchInput}
           handleInputChange={handleInputChange}

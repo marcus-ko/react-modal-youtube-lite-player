@@ -2,7 +2,7 @@ import React from 'react';
 
 const Search = ({ searchInput, handleInputChange }) => {
   return (
-    <div>
+    <div class="search-wrapper">
       <input
         type="text"
         className="search-bar"

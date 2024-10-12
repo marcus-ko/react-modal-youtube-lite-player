@@ -310,12 +310,13 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 
     .card-wrapper {
       flex: 0 0 30%;
       display: flex;
       justify-content: center;
-      margin: 20px;
+      margin: 20px 0;
 
       .card-details {
         width: 300px;
